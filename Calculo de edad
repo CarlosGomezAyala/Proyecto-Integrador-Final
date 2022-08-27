@@ -1,0 +1,10 @@
+CarlosEdad=22
+edadU= int(input("¿Cuál es tu edad?: "))
+difedad=CarlosEdad-edadU
+difedad2= difedad-difedad-difedad
+if difedad<0:
+    print('Usted es mayor que Carlos por', difedad2,'años.')
+elif difedad>0:
+    print('Carlos tiene 22 años', ',su diferencia de edad es de', difedad,'años.')
+else:
+    print('Carlos y tú tienen la misma edad.')
